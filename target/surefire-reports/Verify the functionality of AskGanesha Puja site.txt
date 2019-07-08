@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Verify the functionality of AskGanesha Puja site
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.217 s - in Verify the functionality of AskGanesha Puja site

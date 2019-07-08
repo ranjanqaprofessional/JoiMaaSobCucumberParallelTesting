@@ -1,0 +1,318 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 35088606485,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.I_launch_the_Browser_and_enter_url_for_AskGanesha()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify the appearence and functionality of Love Link on AskGanesha Home Page",
+        "description": "",
+        "id": "verify-the-functionality-of-askganesha-love-site;verify-the-appearence-and-functionality-of-love-link-on-askganesha-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 92400632,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I see the Love Link",
+            "match": {
+              "location": "AskGanesha1_Steps.I_see_the_Love_Link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2409731010,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the Love Link",
+            "match": {
+              "location": "AskGanesha1_Steps.I_click_on_the_Love_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56438780,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I confirm that the Love page is displayed",
+            "match": {
+              "location": "AskGanesha1_Steps.I_confirm_that_the_Love_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Verify the presence of Ask a question on love and Compatibility report",
+        "description": "",
+        "id": "verify-the-functionality-of-askganesha-love-site;verify-the-presence-of-ask-a-question-on-love-and-compatibility-report",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 57169641,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I confirm that the Love page is displayed",
+            "match": {
+              "location": "AskGanesha1_Steps.I_confirm_that_the_Love_page_is_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2634147572,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I see the headers Askaquestiononlove and Compatibility report",
+            "match": {
+              "location": "AskGanesha1_Steps.I_see_the_love_headers()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Fifth"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the functionality of AskGanesha Love site",
+    "description": "",
+    "id": "verify-the-functionality-of-askganesha-love-site",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/RBHD3/eclipse-workspace/JoiMaaSobPOM/src/test/java/features/AskGanesha1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 27323726800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.I_launch_the_Browser_and_enter_url_for_AskGanesha_for_Puja()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify the appearence and functionality of Puja  on AskGanesha site",
+        "description": "",
+        "id": "verify-the-functionality-of-askganesha-puja-site;verify-the-appearence-and-functionality-of-puja--on-askganesha-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62023086,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the AskGanesha Puja Page",
+            "match": {
+              "location": "AskGanesha3_Steps.I_am_on_the_AskGanesha_Puja_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37012170,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see the GauriShankar Puja Link",
+            "match": {
+              "location": "AskGanesha3_Steps.I_see_the_GauriShankar_Puja_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40493700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I see the Ladoo Gopal Maha Anusthan Link",
+            "match": {
+              "location": "AskGanesha3_Steps.I_see_Ladoo_Gopal_Maha_Anusthan_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3743650515,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I confirm that AskGaneshaPuja Page is displayed correctly",
+            "match": {
+              "location": "AskGanesha3_Steps.I_confirm_that_Ask_Ganesha_Puja_Page_is_displayed_correctly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Third"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the functionality of AskGanesha Puja site",
+    "description": "",
+    "id": "verify-the-functionality-of-askganesha-puja-site",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/RBHD3/eclipse-workspace/JoiMaaSobPOM/src/test/java/features/AskGanesha3.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 39734034287,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.I_launch_the_Browser_and_enter_url_for_Ask_Ganesha_GunMIlan()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Entry of data for Boy",
+        "description": "",
+        "id": "verify-the-functionality-of-askganesha-gunmilan-page;entry-of-data-for-boy",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 80576854,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I see the Boy Details Sub Header",
+            "match": {
+              "location": "AskGaneshaGunMilan_Steps.I_see_the_Boy_Details_SubHeader()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1699582909,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the Boy Details using Json",
+            "match": {
+              "location": "AskGaneshaGunMilan_Steps.I_enter_the_Boy_Details_using_Json()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119315,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the details are displayed successfully",
+            "match": {
+              "location": "AskGaneshaGunMilan_Steps.details_are_displayed_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Seventh"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Entry of data for Girl",
+        "description": "",
+        "id": "verify-the-functionality-of-askganesha-gunmilan-page;entry-of-data-for-girl",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 108359396,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I see the Girl Details Sub Header",
+            "match": {
+              "location": "AskGaneshaGunMilan_Steps.I_see_the_Girl_Details_SubHeader()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1181143966,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter the Girl Details using Json",
+            "match": {
+              "location": "AskGaneshaGunMilan_Steps.I_enter_the_Girl_Details_using_Json()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79544,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the details are displayed successfully",
+            "match": {
+              "location": "AskGaneshaGunMilan_Steps.details_are_displayed_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the functionality of AskGanesha GunMilan Page",
+    "description": "",
+    "id": "verify-the-functionality-of-askganesha-gunmilan-page",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/RBHD3/eclipse-workspace/JoiMaaSobPOM/src/test/java/features/AskGaneshaGunMilan.feature",
+    "tags": []
+  }
+]
