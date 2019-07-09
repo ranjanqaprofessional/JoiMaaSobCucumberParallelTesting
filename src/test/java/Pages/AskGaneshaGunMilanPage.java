@@ -6,7 +6,7 @@ import org.json.simple.parser.ParseException;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 
-
+import Utilities.EmailSender;
 import runnersandhooks.Hooks;
 
 public class AskGaneshaGunMilanPage {
@@ -49,25 +49,28 @@ public class AskGaneshaGunMilanPage {
 	 Hooks.ChromeDriver5.findElement(txtGirlName).sendKeys(GirlName);
 	 Hooks.ChromeDriver5.findElement(txtGirlBirthCity).sendKeys(GirlBirthCity);
 	 Hooks.close_browser(Hooks.ChromeDriver5);
+	 EmailSender.send_Email_with_attachment("ranjan.seleniumtester@gmail.com", "ransfastgud2@gmail.com", "Jai Shri Krishna", "Radhe Radhe");
 		
 		
 	}
  
- public void I_enter_the_Boy_Details() throws Exception, ParseException {
+ public void I_enter_the_Boy_Details_using_Json() throws Exception, ParseException {
 	 String Name = Utilities.JsonReader.readJSONData("Boy FullName");
 	 String BirthCity = Utilities.JsonReader.readJSONData("Boy Birth City");
 	 Hooks.ChromeDriver5.findElement(txtBoyName).sendKeys(Name);
 	 Hooks.ChromeDriver5.findElement(txtBoyBirthCity).sendKeys(BirthCity);
+	 
 		
 		
 	}
  
- public void I_enter_the_Girls_Details() throws Exception  {
+ public void I_enter_the_Girls_Details_using_Json() throws Exception  {
 	 String Name = Utilities.JsonReader.readJSONData("Girl FullName");
 	 String BirthCity = Utilities.JsonReader.readJSONData("Girl Birth City");
 	 Hooks.ChromeDriver5.findElement(txtGirlName).sendKeys(Name);
 	 Hooks.ChromeDriver5.findElement(txtGirlBirthCity).sendKeys(BirthCity);
 	 Hooks.close_browser(Hooks.ChromeDriver5);
+	 EmailSender.send_Email_with_attachment("ranjan.seleniumtester@gmail.com", "ransfastgud2@gmail.com", "Jai Shri Krishna", "Radhe Radhe");
 		
 		
 	}

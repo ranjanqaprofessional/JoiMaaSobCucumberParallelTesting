@@ -12,9 +12,11 @@ Utilities\PDFReader.class
 JoiMaaSobPOM\JoiMaaSobPOM\AppTest.class
 Pages\AskGaneshaGunMilanPage.class
 Pages\AskGanesha2.class
+Utilities\EmailSender.class
 Pages\AskGanesha3.class
 runnersandhooks\Hooks.class
 StepDefinitions\KaanhaiPDF_Steps.class
+Utilities\EmailSender$1.class
 Pages\KaanhaiPDF.class
 StepDefinitions\AskGanesha2_Steps.class
 StepDefinitions\AskGaneshaGunMilan_Steps.class

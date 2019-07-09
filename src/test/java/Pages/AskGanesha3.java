@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 
 import Managers.DriverManager;
+import Utilities.EmailSender;
 import runnersandhooks.Hooks;
 
 public class AskGanesha3  {
@@ -32,6 +33,7 @@ public class AskGanesha3  {
 		System.out.println("Jai Ganesh Jee");
 		System.out.println(Hooks.ChromeDriver3.getCurrentUrl());
 		Hooks.close_browser(Hooks.ChromeDriver3);
+		EmailSender.send_Email_with_attachment("ranjan.seleniumtester@gmail.com", "ransfastgud2@gmail.com", "Jai Shri Krishna", "Radhe Radhe");
 
 	}
 

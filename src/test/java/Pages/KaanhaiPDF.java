@@ -3,6 +3,7 @@ package Pages;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 
+import Utilities.EmailSender;
 import runnersandhooks.Hooks;
 
 public class KaanhaiPDF {
@@ -27,6 +28,7 @@ public class KaanhaiPDF {
 	public void I_confirm_Kaanhaitext_from_PDF() throws Exception {
 		Utilities.PDFReader.verifyPDFContent(Hooks.ChromeDriver4, "Test");
 		Hooks.close_browser(Hooks.ChromeDriver4);
+		EmailSender.send_Email_with_attachment("ranjan.seleniumtester@gmail.com", "ransfastgud2@gmail.com", "Jai Shri Krishna", "Radhe Radhe");
 
 	}
 

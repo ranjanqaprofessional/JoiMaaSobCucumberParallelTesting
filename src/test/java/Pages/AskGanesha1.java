@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 
 import Managers.DriverManager;
+import Utilities.EmailSender;
 import runnersandhooks.Hooks;
 
 public class AskGanesha1 {
@@ -34,5 +35,6 @@ public class AskGanesha1 {
 		Assert.assertTrue(Hooks.ChromeDriver1.findElement(hdrAskaquestiononlove).isDisplayed() == true);
 		Assert.assertTrue(Hooks.ChromeDriver1.findElement(hdrCompatibilityReport).isDisplayed() == true);
 		Hooks.close_browser(Hooks.ChromeDriver1);
+	    EmailSender.send_Email_with_attachment("ranjan.seleniumtester@gmail.com", "ransfastgud2@gmail.com", "Jai Shri Krishna", "Radhe Radhe");
 	}
 }

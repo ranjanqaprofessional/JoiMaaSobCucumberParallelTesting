@@ -33,7 +33,7 @@ public class AskGaneshaGunMilan_Steps {
 	
 	@And("^I enter the Boy Details using Json$")
 	 public void I_enter_the_Boy_Details_using_Json() throws ParseException, Exception {
-		askganeshagunmilanpage.I_enter_the_Boy_Details();
+		askganeshagunmilanpage.I_enter_the_Boy_Details_using_Json();
 		
 		}
 	
@@ -55,7 +55,7 @@ public class AskGaneshaGunMilan_Steps {
 	 
 	 @And("^I enter the Girl Details using Json$")
 	 public void I_enter_the_Girl_Details_using_Json() throws ParseException, Exception {
-		 askganeshagunmilanpage.I_enter_the_Girls_Details();
+		 askganeshagunmilanpage.I_enter_the_Girls_Details_using_Json();
 		
 		}
 	 

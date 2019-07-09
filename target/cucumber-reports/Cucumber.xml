@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="114.379253">
-<testcase classname="Verify the functionality of AskGanesha Love site" name="Verify the appearence and functionality of Love Link on AskGanesha Home Page" time="37.653455">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="227.319992">
+<testcase classname="Verify the functionality of AskGanesha Love site" name="Verify the appearence and functionality of Love Link on AskGanesha Home Page" time="44.378774">
 <system-out><![CDATA[Given I see the Love Link...................................................passed
 When I click on the Love Link...............................................passed
 Then I confirm that the Love page is displayed..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify the functionality of AskGanesha Love site" name="Verify the presence of Ask a question on love and Compatibility report" time="2.695654">
+<testcase classname="Verify the functionality of AskGanesha Love site" name="Verify the presence of Ask a question on love and Compatibility report" time="31.626381">
 <system-out><![CDATA[Given I confirm that the Love page is displayed.............................passed
 Then I see the headers Askaquestiononlove and Compatibility report..........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify the functionality of AskGanesha Puja site" name="Verify the appearence and functionality of Puja  on AskGanesha site" time="31.222713">
+<testcase classname="Verify the functionality of AskGanesha Puja site" name="Verify the appearence and functionality of Puja  on AskGanesha site" time="72.516389">
 <system-out><![CDATA[Given I am on the AskGanesha Puja Page......................................passed
 When I see the GauriShankar Puja Link.......................................passed
 And I see the Ladoo Gopal Maha Anusthan Link................................passed
 Then I confirm that AskGaneshaPuja Page is displayed correctly..............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify the functionality of AskGanesha GunMilan Page" name="Entry of data for Boy" time="41.517652">
+<testcase classname="Verify the functionality of AskGanesha GunMilan Page" name="Entry of data for Boy" time="46.111199">
 <system-out><![CDATA[Given I see the Boy Details Sub Header......................................passed
 And I enter the Boy Details using Json......................................passed
 Then the details are displayed successfully.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify the functionality of AskGanesha GunMilan Page" name="Entry of data for Girl" time="1.289779">
+<testcase classname="Verify the functionality of AskGanesha GunMilan Page" name="Entry of data for Girl" time="32.687249">
 <system-out><![CDATA[Given I see the Girl Details Sub Header.....................................passed
 And I enter the Girl Details using Json.....................................passed
 Then the details are displayed successfully.................................passed
